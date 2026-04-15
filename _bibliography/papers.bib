@@ -1,115 +1,60 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{SIGMOD26:hire,
+  abbr         = {SIGMOD'26},
+  bibtex_show  = {true},
+  title        = {HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads},
+  author       = {Zhang, Xinyi and Liang, Liang and Ailamaki, Anastasia and Xu, Jianliang},
+  journal      = {Proceedings of the ACM on Management of Data (SIGMOD)},
+  volume       = {4},
+  number       = {1},
+  articleno    = {43},
+  numpages     = {25},
+  month        = feb,
+  year         = {2026},
+  doi          = {10.1145/3786657},
+  html         = {https://doi.org/10.1145/3786657},
+  pdf          = {https://arxiv.org/pdf/2511.21307},
+  slides       = {hire_slides.pptx},
+  abstract     = {Indexes are critical for efficient data retrieval and updates in modern databases. Recent advances in machine learning have led to the development of learned indexes, which model the cumulative distribution function of data to predict search positions and accelerate query processing. While learned indexes substantially outperform traditional structures for point lookups, they often suffer from high tail latency, suboptimal range query performance, and inconsistent effectiveness across diverse workloads. To address these challenges, this paper proposes HIRE, a hybrid in-memory index structure designed to deliver efficient performance consistently. HIRE combines the structural and performance robustness of traditional indexes with the predictive power of model-based prediction to reduce search overhead while maintaining worst-case stability. Experimental results on multiple real-world datasets demonstrate that HIRE outperforms both state-of-the-art learned indexes and traditional structures in range-query throughput, tail latency, and overall stability, achieving up to 41.7x higher throughput under mixed workloads and reducing tail latency by up to 98%.},
+  selected     = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{DAC25:edge,
+  abbr         = {DAC'25},
+  bibtex_show  = {true},
+  title        = {EDGE: DBMS-Empowered Boolean Decomposition for GIG Synthesis},
+  author       = {Tang, Ruofei and Zhu, Xuliang and Zhang, Xinyi and Chen, Lei and Li, Xing and Yuan, Mingxuan and Xu, Jianliang},
+  booktitle    = {Proceedings of the 62nd Annual ACM/IEEE Design Automation Conference (DAC)},
+  series       = {DAC '25},
+  articleno    = {408},
+  numpages     = {7},
+  location     = {San Francisco, California, United States},
+  publisher    = {IEEE Press},
+  isbn         = {9798331503048},
+  year         = {2025},
+  doi          = {10.1109/DAC63849.2025.11133306},
+  html         = {https://doi.org/10.1109/DAC63849.2025.11133306},
+  abstract     = {Boolean decomposition is a powerful technique in logic synthesis that breaks down Boolean functions into simpler components. Decomposition-based logic synthesis yields high-quality results and is particularly effective when combined with small-window optimization methods in Gate-Inverter Graphs (GIG). However, the efficiency limitations of current methods have constrained their applicability in handling large and complex logic. To address this challenge, we propose a novel framework, called EDGE, which leverages modern database techniques to accelerate Boolean decomposition, thereby achieving improved synthesis results while maintaining high efficiency. Experimental results demonstrate a runtime speedup of up to 21x and an overall reduction in node count of at least 15\% compared to state-of-the-art synthesis methods.}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@article{SIGMOD24:fedknn,
+  abbr         = {SIGMOD'24},
+  bibtex_show  = {true},
+  title        = {FedKNN: Secure Federated k-Nearest Neighbor Search},
+  author       = {Zhang, Xinyi and Wang, Qichen and Xu, Cheng and Peng, Yun and Xu, Jianliang},
+  journal      = {Proceedings of the ACM on Management of Data (SIGMOD)},
+  volume       = {2},
+  number       = {1},
+  articleno    = {11},
+  numpages     = {26},
+  month        = mar,
+  year         = {2024},
+  doi          = {10.1145/3639266},
+  html         = {https://doi.org/10.1145/3639266},
+  pdf          = {https://www.comp.hkbu.edu.hk/%7Edb/fedknn_cr_tech_report.pdf},
+  slides       = {fedknn_slides.pptx},
+  abstract     = {Nearest neighbor search is a fundamental task in various domains, such as federated learning, data mining, information retrieval, and biomedicine. With the increasing need to utilize data from different organizations while respecting privacy regulations, private data federation has emerged as a promising solution. However, it is costly to directly apply existing approaches to federated k-nearest neighbor (kNN) search with difficult-to-compute distance functions, like graph or sequence similarity. To address this challenge, we propose FedKNN, a system that supports secure federated kNN search queries with a wide range of similarity measurements. Our system is equipped with a new Distribution-Aware kNN (DANN) algorithm to minimize unnecessary local computations while protecting data privacy. We further develop DANN*, a secure version of DANN that satisfies differential obliviousness. Extensive evaluations show that FedKNN outperforms state-of-the-art solutions, achieving up to 4.8x improvement on federated graph kNN search and up to 2.7x improvement on federated sequence kNN search.},
+  selected     = {true}
 }

@@ -1,81 +1,34 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: HIRE
+description: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads (SIGMOD '26)
+img:
 importance: 2
-category: work
-giscus_comments: true
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads**
+To appear at **ACM SIGMOD 2026** · Xinyi Zhang, Liang Liang, Anastasia Ailamaki, Jianliang Xu
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Motivation
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Learned indexes substantially outperform traditional structures for point lookups by modeling the CDF of data. However, they frequently suffer from **high tail latency**, **suboptimal range-query performance**, and **inconsistent effectiveness** across diverse workloads — limiting their adoption in production systems.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Design
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+HIRE is a hybrid in-memory index that combines the structural robustness of traditional indexes with the predictive power of learned models:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Hybrid leaf nodes** that adapt to varying data distributions and workloads.
+2. **Model-accelerated internal nodes** augmented with log-based updates for efficient writes.
+3. A **non-blocking, cost-driven recalibration** mechanism for dynamic data.
+4. An **inter-level bulk-loading algorithm** that jointly accounts for leaf and internal-node errors.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Results
 
-{% raw %}
+- Up to **41.7×** higher throughput under mixed workloads vs. SOTA learned / traditional indexes.
+- Up to **98%** reduction in tail latency across varying scenarios.
+- Consistently robust range-query and overall performance.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Links
 
-{% endraw %}
+[[paper]](https://doi.org/10.1145/3786657)
