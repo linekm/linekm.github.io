@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><strong>Xinyi Zhang (张新驿)</strong></p>
-    <p>DLB 625G, 34 Renfrew Rd</p>
-    <p>Hong Kong Baptist University</p>
+    <p>DLB 625G, David C. Lam Building</p>
+    <p>Shaw Campus, Hong Kong Baptist University</p>
     <p>Hong Kong SAR</p>
     <p>csxyzhang [at] comp.hkbu.edu.hk</p>
 
