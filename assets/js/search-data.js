@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-presented-fedknn-secure-federated-k-nearest-neighbor-search-at-acm-sigmod-2024-in-santiago-chile-received-the-sigmod-student-travel-award",
-          title: 'Presented FedKNN: Secure Federated k-Nearest Neighbor Search at ACM SIGMOD 2024 in Santiago,...',
+        },{id: "news-our-paper-fedknn-secure-federated-k-nearest-neighbor-search-has-been-accepted-to-sigmod-2026-in-santiago-chile",
+          title: 'Our paper FedKNN: Secure Federated k-Nearest Neighbor Search has been accepted to SIGMOD...',
           description: "",
           section: "News",},{id: "news-our-paper-hire-a-hybrid-learned-index-for-robust-and-efficient-performance-under-mixed-workloads-has-been-accepted-to-sigmod-2026",
           title: 'Our paper HIRE: A Hybrid Learned Index for Robust and Efficient Performance under...',
