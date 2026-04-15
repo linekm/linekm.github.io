@@ -37,7 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-our-paper-fedknn-secure-federated-k-nearest-neighbor-search-has-been-accepted-to-sigmod-2026-in-santiago-chile",
+        },{id: "news-our-paper-fedknn-secure-federated-k-nearest-neighbor-search-has-been-accepted-to-sigmod-2024",
           title: 'Our paper FedKNN: Secure Federated k-Nearest Neighbor Search has been accepted to SIGMOD...',
           description: "",
           section: "News",},{id: "news-our-paper-hire-a-hybrid-learned-index-for-robust-and-efficient-performance-under-mixed-workloads-has-been-accepted-to-sigmod-2026",
