@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **FedKNN: Secure Federated k-Nearest Neighbor Search** has been accepted to **SIGMOD 2026**! in Santiago, Chile. 🎉
+Our paper **FedKNN: Secure Federated k-Nearest Neighbor Search** has been accepted to **SIGMOD 2024**! 🎉
