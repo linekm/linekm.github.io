@@ -10,12 +10,15 @@ nav_order: 4
 ## Invited Talks & Presentations
 
 1. **HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads**
+   *ACM SIGMOD 2026*, Bengaluru, India. *Jun 2026.*
+
+2. **HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads**
    HKBU–BNBU Joint Postgraduate Research Symposium, Zhuhai, China. *Jun 2025.*
 
-2. **Secure Federated kNN Search**
+3. **Secure Federated kNN Search**
    Invited talk at **Huawei**, Online. *Nov 2024.*
 
-3. **FedKNN: Secure Federated k-Nearest Neighbor Search**
+4. **FedKNN: Secure Federated k-Nearest Neighbor Search**
    *ACM SIGMOD 2024*, Santiago, Chile. *Jun 2024.*
 
 ---
@@ -36,7 +39,7 @@ nav_order: 4
 
 ## Honors and Awards
 
-- **ACM SIGMOD Student Travel Award**, ACM — 2024
+- **ACM SIGMOD Student Travel Award**, ACM — 2024, 2026
 - **VLDB Student Travel Award**, VLDB Endowment — 2024
 - **RPg Research Performance Award**, Hong Kong Baptist University — 2024, 2025
 - **Excellent Teaching Assistant Performance Award**, Hong Kong Baptist University — 2022, 2023

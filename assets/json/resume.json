@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "ZHANG Xinyi",
-    "label": "Final-year PhD Candidate",
+    "label": "Postdoctoral Fellow",
     "image": "",
     "email": "csxyzhang@comp.hkbu.edu.hk",
     "phone": "+852-56027517",
     "url": "https://linekm.github.io",
-    "summary": "Final-year PhD candidate in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures.",
+    "summary": "Postdoctoral Fellow in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures.",
     "location": {
       "address": "DLB 625G, 34 Renfrew Rd, HKBU",
       "postalCode": "",
@@ -18,14 +18,25 @@
   },
   "work": [
     {
+      "name": "Hong Kong Baptist University",
+      "position": "Postdoctoral Fellow",
+      "location": "Hong Kong SAR",
+      "startDate": "2026-08-01",
+      "endDate": "Present",
+      "summary": "Working with Prof. Jianliang Xu.",
+      "highlights": [
+        "Research on efficient and secure query processing for relational and vector databases."
+      ]
+    },
+    {
       "name": "Nanyang Technological University",
       "position": "Visiting Scholar",
       "location": "Singapore",
       "startDate": "2026-03-01",
-      "endDate": "Present",
+      "endDate": "2026-06-01",
       "summary": "Hosted by Dr. Qichen Wang.",
       "highlights": [
-        "Working on \"Learned Indexes for Query Optimization\", integrating learned index structures into structure-guided execution plans for acyclic queries."
+        "Worked on \"Learned Indexes for Query Optimization\", integrating learned index structures into structure-guided execution plans for acyclic queries."
       ]
     },
     {
@@ -33,7 +44,7 @@
       "position": "PhD Candidate",
       "location": "Hong Kong SAR",
       "startDate": "2021-09-01",
-      "endDate": "Present",
+      "endDate": "2026-07-01",
       "summary": "Advised by Prof. Jianliang Xu.",
       "highlights": [
         "Designed novel algorithms and indexes for relational and vector databases to support efficient and secure query processing in a wide range of systems.",
@@ -74,7 +85,7 @@
       "area": "Computer Science",
       "studyType": "Ph.D.",
       "startDate": "2021-09-01",
-      "endDate": "Present",
+      "endDate": "2026-07-01",
       "score": "",
       "courses": [],
       "highlights": [
@@ -103,7 +114,7 @@
     },
     {
       "title": "ACM SIGMOD Student Travel Award",
-      "date": "2024-01-01",
+      "date": "2024, 2026",
       "awarder": "ACM",
       "summary": ""
     },
@@ -252,7 +263,7 @@
       "endDate": "Present"
     },
     {
-      "name": "Authenticated Approximate Nearest Neighbor Search (Under Review)",
+      "name": "Authenticated Approximate Nearest Neighbor Search (Under Revision, SIGMOD)",
       "summary": "VIDA, a novel scheme for authenticated graph-based ANN search that leverages vector commitments and Inner Product Arguments to verify distance computations, drastically reducing the overall data transmission size. MeST, a proof aggregation mechanism, compresses the verification of multiple vectors into a single cryptographic proof. Up to 5.2× speedup in end-to-end latency and 99.3% reduction in data transfer time.",
       "highlights": [
         "Vector commitments + Inner Product Arguments",

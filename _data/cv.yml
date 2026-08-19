@@ -1,11 +1,11 @@
 cv:
   name: Xinyi Zhang
-  label: PhD Candidate
+  label: Postdoctoral Fellow
   email: csxyzhang@comp.hkbu.edu.hk
   phone: +852-56027517
   location: Hong Kong SAR
   image: ""
-  summary: Final-year PhD candidate in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures for query processing and vector search.
+  summary: Postdoctoral Fellow in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures for query processing and vector search.
 
   social_networks:
     - network: GitHub
@@ -28,10 +28,10 @@ cv:
         area: Computer Science
         studyType: PhD
         start_date: Sep 2021
-        end_date: Present
+        end_date: Jul 2026
         highlights:
-          - Advisor: Prof. Jianliang Xu (Head & Chair Professor)
-          - Research areas: query processing optimization, secure query processing, AI4DB, vector databases.
+          - "Advisor: Prof. Jianliang Xu (Head & Chair Professor)"
+          - "Research areas: query processing optimization, secure query processing, AI4DB, vector databases."
 
       - institution: Huazhong University of Science and Technology
         location: Wuhan, China
@@ -43,20 +43,29 @@ cv:
         score: "GPA 3.7/4.0 (Rank: Top 15%)"
 
     Experience:
+      - company: Hong Kong Baptist University
+        position: Postdoctoral Fellow
+        location: Hong Kong SAR
+        start_date: Aug 2026
+        end_date: Present
+        summary: Working with Prof. Jianliang Xu.
+        highlights:
+          - Research on efficient and secure query processing for relational and vector databases.
+
       - company: Nanyang Technological University
         position: Visiting Scholar
         location: Singapore
         start_date: Mar 2026
-        end_date: Present
+        end_date: Jun 2026
         summary: Hosted by Dr. Qichen Wang.
         highlights:
-          - Working on Learned Indexes for Query Optimization, integrating learned index structures into structure-guided execution plans for acyclic queries.
+          - Worked on Learned Indexes for Query Optimization, integrating learned index structures into structure-guided execution plans for acyclic queries.
 
       - company: Hong Kong Baptist University
         position: PhD Candidate
         location: Hong Kong SAR
         start_date: Sep 2021
-        end_date: Present
+        end_date: Jul 2026
         summary: Advised by Prof. Jianliang Xu.
         highlights:
           - Designed novel algorithms and indexes for relational and vector databases to support efficient and secure query processing.
@@ -101,15 +110,17 @@ cv:
           - Proposed a secure ANN index structure within trusted execution environments, mitigating side-channel attacks by enforcing oblivious memory access patterns on proximity graph indexes.
           - Achieved plaintext-level throughput with provable privacy guarantees via a distribution-aware oblivious access algorithm, significantly outperforming SOTA solutions.
       - name: Authenticated Approximate Nearest Neighbor Search
-        venue: Under Review
+        venue: Under Revision (SIGMOD)
         highlights:
           - Designed VIDA, a scheme for authenticated graph-based ANN search that leverages vector commitments and Inner Product Arguments to verify distance computations, drastically reducing data transmission size.
           - Introduced MeST, a proof aggregation mechanism that compresses the verification of multiple vectors into a single cryptographic proof; achieved up to 5.2× end-to-end speedup and 99.3% reduction in data transfer time.
 
     Honors and Awards:
-      - year: 2024
+      - year: 2024, 2026
         items:
           - ACM SIGMOD Student Travel Award
+      - year: 2024
+        items:
           - VLDB Student Travel Award
       - year: 2024, 2025
         items:

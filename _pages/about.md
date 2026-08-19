@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Final-year PhD Candidate · <a href='https://www.comp.hkbu.edu.hk/'>Department of Computer Science</a>, Hong Kong Baptist University · Advised by <a href='https://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu</a>
+subtitle: Postdoctoral Fellow · <a href='https://www.comp.hkbu.edu.hk/'>Department of Computer Science</a>, Hong Kong Baptist University · Working with <a href='https://www.comp.hkbu.edu.hk/~xujl'>Prof. Jianliang Xu</a>
 
 profile:
   align: right
@@ -29,7 +29,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a final-year PhD candidate in the [Department of Computer Science](https://www.comp.hkbu.edu.hk/) at [Hong Kong Baptist University (HKBU)](https://www.hkbu.edu.hk/), advised by [Prof. Jianliang Xu](https://www.comp.hkbu.edu.hk/~xujl). I am currently also a visiting scholar at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), hosted by [Dr. Qichen Wang](https://qichen-wang.github.io). Before joining HKBU, I received my B.Eng. in Electronics and Information Engineering from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/) in 2021.
+I am a Postdoctoral Fellow in the [Department of Computer Science](https://www.comp.hkbu.edu.hk/) at [Hong Kong Baptist University (HKBU)](https://www.hkbu.edu.hk/), working with [Prof. Jianliang Xu](https://www.comp.hkbu.edu.hk/~xujl). I received my PhD in Computer Science from HKBU in 2026, advised by Prof. Jianliang Xu. From March to June 2026, I was a visiting scholar at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), hosted by [Dr. Qichen Wang](https://qichen-wang.github.io). Before joining HKBU, I received my B.Eng. in Electronics and Information Engineering from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/) in 2021.
 
 **Research.** My research lies at the intersection of **database systems**, **machine learning** and **security**, with a focus on designing algorithms and index structures for efficient and secure query processing. I am particularly interested in:
 
@@ -38,4 +38,4 @@ I am a final-year PhD candidate in the [Department of Computer Science](https://
 - **Vector Databases** — distributed and privacy-preserving systems for high-dimensional similarity search.
 - **Query Optimization** — distribution-aware algorithms and learned structure-guided execution plans for complex queries.
 
-My work has been published at top-tier database venues including **SIGMOD**. I am actively looking for research collaborations and industry / post-doc opportunities in the above areas — please feel free to [reach out](mailto:csxyzhang@comp.hkbu.edu.hk).
+My work has been published at top-tier database venues including **SIGMOD**. I am always open to research collaborations in the above areas — please feel free to [reach out](mailto:csxyzhang@comp.hkbu.edu.hk).
