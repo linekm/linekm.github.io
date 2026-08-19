@@ -1,0 +1,170 @@
+\documentclass{mycv}
+
+\name[ZHANG Xinyi]{ZHANG Xinyi}
+\address{DLB 625G, 34 Renfrew Rd, HKBU, Hong Kong}
+\email{csxyzhang@comp.hkbu.edu.hk}
+\phone{+852-56027517}
+\homepage{https://linekm.github.io}
+% \github{xu-cheng}
+\linkedin{xinyi-zhang-hkbu}
+
+\begin{document}
+
+\maketitle%
+
+\begin{summary}
+Postdoctoral Fellow in the Department of Computer Science at Hong Kong Baptist University with experience in designing and implementing various high-performance, secure database and distribution-aware data structures.
+\end{summary}
+
+\section{Education}
+
+\subsection{Hong Kong Baptist University}[Hong Kong, China]
+\vspace{-\parskip}%
+\begin{itemize}[label={}]
+  \item Ph.D.\ in Computer Science \printdate{Sep 2021~--~Jul 2026}
+  \item Supervisor: \href{https://www.comp.hkbu.edu.hk/~xujl}{Prof.~Xu Jianliang}
+\end{itemize}
+
+\subsection{Huazhong University of Science and Technology}[Wuhan, China]
+\vspace{-\parskip}%
+\begin{itemize}[label={}]
+  \item Bachelor of Engineering in Electronics \& Information Engineering \printdate{Sep 2017~--~Jun 2021}
+  \item \textbf{GPA}: 3.7/4.0 (Rank: 15\%)
+\end{itemize}
+
+\section{Professional \\ Experience}
+
+\subsection{Hong Kong Baptist University}[Hong Kong, China]
+\begin{positions}
+  \entry{Postdoctoral Fellow}{Aug 2026~--~Present}
+  \entry{Ph.D.\ Candidate}{Sep 2021~--~Jul 2026}
+\end{positions}
+
+\begin{itemize}
+  \item Supervisor: \href{https://www.comp.hkbu.edu.hk/~xujl}{Prof.~Xu Jianliang}
+  \item Designed novel algorithms and indexes for relational and vector databases to support efficient and secure query processing in a wide range of systems.
+  \item Designed novel distribution-aware data structures to handle complex database workloads while ensuring robust performance.
+  \item Research resulted in publications at top-tier conferences.
+\end{itemize}
+
+\subsection{Nanyang Technological University}[Singapore]
+\begin{positions}
+  \entry{Visiting Scholar}{March 2026~--~June 2026}
+\end{positions}
+\begin{itemize}
+  \item Supervisor: \href{https://qichen-wang.github.io}{Prof.~Wang Qichen}
+  \item Focus on "Learned Indexes for Query Optimization," specifically aiming to integrate learned index structures into structure-guided execution plans for acyclic queries.
+\end{itemize}
+
+\subsection{Huazhong University of Science and Technology}[Wuhan, China]
+\begin{positions}
+  \entry{Researcher}{May 2019~--~Feb 2020}
+\end{positions}
+
+\begin{itemize}
+  \item Design a fast consensus algorithm of blockchain combining SOTA consensus algorithm.
+  \item Build a blockchain system for ASTRI as a integrity-assured record for distributed database.
+\end{itemize}
+
+% \subsection{Huazhong University of Science and Technology}[Wuhan, China]
+% \begin{positions}
+%   \entry{Core Member}{Oct 2019~--~Apr 2021}
+% \end{positions}
+
+% \begin{itemize}
+%   \item Research and implement the Algorand consensus algorithm to verify its feasibility for ASTRI's BFC 2.0 system.
+% \end{itemize}
+
+\section{Research \\ Interests}
+
+\begin{itemize}
+  \item Oblivious query processing for data federation and outsourcing cloud computing.
+  \item Scalable secure query processing for vector database based on Trusted Execution Environments.
+  \item Robust updatable learned index under real-world workload.
+  \item Distributed vector database design
+\end{itemize}
+
+\section{Publications}%
+
+% \textbf{Complete List:}
+% \href{https://scholar.google.com/citations?user=DKG_JaAAAAAJ}{Google Scholar \textsf{\footnotesize [DKG\_JaAAAAAJ]}}%
+% {~~$\cdot$~~}%
+% \href{https://dblp.org/pers/hd/x/Xu_0004:Cheng}{DBLP \textsf{\footnotesize [Xu\_0004:Cheng]}}%
+
+\publications[keyword={selected}]{publications.bib}
+
+{
+\footnotesize%
+\textsuperscript{\textdagger}These authors contributed equally.
+}
+
+\section{Research \\ Projects}
+\subsection{FedKNN: Secure Federated k-Nearest Neighbor Search}[\textbf{SIGMOD '24}]
+\begin{itemize}
+  \item Proposed FedKNN, a system for secure and privacy-preserving federated kNN search, achieving up to 4.8$\times$ efficiency improvement over SOTA by optimizing local computations with a Distribution-Aware algorithm.
+\end{itemize}
+
+\vspace{+5pt}
+
+\subsection{HIRE: A Hybrid Learned Index for Robust and Efficient Performance}[\textbf{SIGMOD '26}]
+\begin{itemize}
+  \item Designed HIRE, a hybrid in-memory index combining learned predictions with traditional robustness, which reduces tail latency by 98\% and improves throughput by 41.7× compared to SOTA approaches.
+\end{itemize}
+
+\subsection{Privacy-Preserving Approximate Nearest Neighbor Search}[\textbf{Under Review}]
+\begin{itemize}
+  \item Proposed a secure ANN index structure within trusted execution environments, mitigating side-channel attacks by enforcing oblivious memory access patterns on proximity graph indexes. In this paper, we achieve plaintext-level throughput with provable privacy guarantees by devising a distribution-aware oblivious access algorithm, significantly outperforming SOTA solutions.
+\end{itemize}
+
+\subsection{Authenticated Approximate Nearest Neighbor Search}[\textbf{Under Revision}]
+\begin{itemize}
+  \item Designed VIDA, a novel scheme for authenticated graph-based ANN search. VIDA leverages vector commitments and Inner Product Arguments to verify distance computations, thereby drastically reducing the overall data transmission size. To further optimize performance, we introduce MeST, a proof aggregation mechanism that compresses the verification of multiple vectors into a single cryptographic proof. In extensive experiment, our solution achieves up to a 5.2x speedup in end-to-end latency and reduces data transfer time by 99.3\%.
+\end{itemize}
+
+\section{Talks}
+
+\begin{enumerate}
+  \item FedKNN: Secure Federated k-Nearest Neighbor Search, \emph{2024 ACM SIGMOD International Conference on Management of Data}, Santiago, Chile, Jun.~2024.
+  
+  \item Secure Federated kNN Search, \emph{Huawei}, Online, Nov.~2024.
+
+  \item HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads, \emph{2026 ACM SIGMOD International Conference on Management of Data}, Bengaluru, India, Jun.~2026.
+\end{enumerate}
+
+\section{Services}
+\begin{itemize}
+    \item Reviewer, IEEE Transactions on Parallel and Distributed Systems (TPDS) \printdate{2025}
+    \item Reviewer, IEEE Transactions on Knowledge and Data Engineering (TKDE) \printdate{2024-2026}
+    \item Reviewer, Springer Data Science and Engineering (DSE) \printdate{2024}
+    \item External Reviewer, ACM International Conference on Management of Data (SIGMOD) \printdate{2025}
+    \item External Reviewer, International Conference on Very Large Data Bases (VLDB) \printdate{2023--2025}
+    \item External Reviewer, IEEE International Conference on Data Engineering (ICDE) \printdate{2022--2025}
+\end{itemize}
+
+\section{Skills}
+
+\begin{description}
+  \item[Programming] Rust, C/C++, Golang, Python, \LaTeX, Bash
+  \item[Tools] Docker, Vim, Git, Linux
+  \item[Languages] English, Chinese
+\end{description}
+
+\section{Awards}
+
+\begin{itemize}
+  \item Academic Excellence Scholarship, Huazhong University of Science and Technology \printdate{2018,~2021}
+  % \item First Prize of ADI SDR Cup, Huazhong University of Science and Technology \& ADI \printdate{2019}
+  \item Excellent Teaching Assistant Performance Award, Hong Kong Baptist University \printdate{2022,~2023}
+  \item RPg Research Performance Award, Hong Kong Baptist University \printdate{2024,~2025}
+  \item ACM SIGMOD Student Travel Award, ACM \printdate{2024,~2026}
+  \item VLDB Student Travel Award, VLDB Endowment \printdate{2024}
+\end{itemize}
+
+\section{Referees}
+\begin{itemize}
+  \item \href{https://www.comp.hkbu.edu.hk/~xujl}{Prof.~Xu Jianliang}, Head \& Chair Professor, Hong Kong Baptist University
+  \item \href{https://qichen-wang.github.io}{Dr.~Wang Qichen}, Assistant Professor, Nanyang Technological University
+  \item \href{https://www.comp.hkbu.edu.hk/~bchoi/}{Prof.~Byron Choi}, Associate Head \& Professor, Hong Kong Baptist University
+\end{itemize}
+
+\end{document}
