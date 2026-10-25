@@ -46,7 +46,7 @@ ninja.data = [{
           section: "News",},{id: "news-started-as-a-visiting-scholar-at-nanyang-technological-university-ntu-hosted-by-dr-qichen-wang-working-on-learned-indexes-for-query-optimization",
           title: 'Started as a Visiting Scholar at Nanyang Technological University (NTU), hosted by Dr....',
           description: "",
-          section: "News",},{id: "news-successfully-defended-my-phd-thesis-i-will-stay-at-hkbu-as-a-postdoctoral-fellow-working-with-prof-jianliang-xu",
+          section: "News",},{id: "news-successfully-defended-my-phd-thesis-i-will-stay-at-hkbu-as-a-senior-research-assistant-working-with-prof-jianliang-xu",
           title: 'Successfully defended my PhD thesis! 🎓 I will stay at HKBU as a...',
           description: "",
           section: "News",},{id: "projects-fedknn",
@@ -66,7 +66,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-vida-authenticated-ann-search",
           title: 'VIDA — Authenticated ANN Search',
-          description: "Verifiable graph-based ANN search via vector commitments and inner-product arguments (Under Review)",
+          description: "Verifiable graph-based ANN search via vector commitments and inner-product arguments (Under Revision, SIGMOD)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "teachings-data-science-fundamentals",
