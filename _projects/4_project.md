@@ -1,13 +1,13 @@
 ---
 layout: page
 title: VIDA — Authenticated ANN Search
-description: Verifiable graph-based ANN search via vector commitments and inner-product arguments (Under Review)
+description: Verifiable graph-based ANN search via vector commitments and inner-product arguments (Under Revision, SIGMOD)
 img:
 importance: 4
 category: research
 ---
 
-**Authenticated Approximate Nearest Neighbor Search (VIDA)** — *Under Review*
+**Authenticated Approximate Nearest Neighbor Search (VIDA)** — *Under Revision (SIGMOD)*
 
 ### Problem
 

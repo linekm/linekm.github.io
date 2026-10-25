@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "ZHANG Xinyi",
-    "label": "Postdoctoral Fellow",
+    "label": "Senior Research Assistant",
     "image": "",
     "email": "csxyzhang@comp.hkbu.edu.hk",
     "phone": "+852-56027517",
     "url": "https://linekm.github.io",
-    "summary": "Postdoctoral Fellow in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures.",
+    "summary": "Senior Research Assistant in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures.",
     "location": {
       "address": "DLB 625G, 34 Renfrew Rd, HKBU",
       "postalCode": "",
@@ -19,7 +19,7 @@
   "work": [
     {
       "name": "Hong Kong Baptist University",
-      "position": "Postdoctoral Fellow",
+      "position": "Senior Research Assistant",
       "location": "Hong Kong SAR",
       "startDate": "2026-08-01",
       "endDate": "Present",
@@ -50,17 +50,6 @@
         "Designed novel algorithms and indexes for relational and vector databases to support efficient and secure query processing in a wide range of systems.",
         "Designed novel distribution-aware data structures to handle complex database workloads while ensuring robust performance.",
         "Research resulted in publications at top-tier conferences."
-      ]
-    },
-    {
-      "name": "ByteDance",
-      "position": "Intern",
-      "location": "Beijing, China",
-      "startDate": "2020-04-01",
-      "endDate": "2020-10-01",
-      "summary": "",
-      "highlights": [
-        "Optimized the inter-cluster communication for internal database clusters of ByteDance to enhance throughput and reduce latency."
       ]
     },
     {
@@ -140,11 +129,25 @@
   "certificates": [],
   "publications": [
     {
+      "name": "Authenticated Approximate Nearest Neighbor Search in Outsourced Vector Databases",
+      "publisher": "Under SIGMOD Revision",
+      "releaseDate": "2026-07-01",
+      "url": "",
+      "summary": "Y. Zhou†, X. Zhang†, C. Xu, and J. Xu. Full Paper. († These authors contributed equally.)"
+    },
+    {
+      "name": "Privacy-Preserving Approximate Nearest Neighbor Search in Trusted Execution Environments",
+      "publisher": "Under Review",
+      "releaseDate": "2026-06-01",
+      "url": "",
+      "summary": "Y. Peng†, X. Zhang†, J. Yang, S. Wang, T. N. Chan, B. Du, C. Dong, and J. Xu. Full Paper. († These authors contributed equally.)"
+    },
+    {
       "name": "HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads",
       "publisher": "Proceedings of the ACM on Management of Data (SIGMOD '26), vol. 4, no. 1",
       "releaseDate": "2026-02-01",
       "url": "",
-      "summary": "X. Zhang, L. Liang, A. Anastasia, and J. Xu. Full Paper."
+      "summary": "X. Zhang, L. Liang, A. Ailamaki, and J. Xu. Full Paper."
     },
     {
       "name": "EDGE: DBMS-Empowered Boolean Decomposition for GIG Synthesis",
@@ -206,8 +209,7 @@
       "keywords": [
         "Oblivious query processing for data federation and outsourcing cloud computing",
         "Scalable secure query processing for vector databases based on Trusted Execution Environments",
-        "Robust updatable learned indexes under real-world workloads",
-        "Distributed vector database design"
+        "Robust updatable learned indexes under real-world workloads"
       ]
     }
   ],

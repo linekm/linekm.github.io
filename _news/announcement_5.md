@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended my PhD thesis! 🎓 I will stay at **HKBU** as a **Postdoctoral Fellow**, working with [Prof. Jianliang Xu](https://www.comp.hkbu.edu.hk/~xujl).
+Successfully defended my PhD thesis! 🎓 I will stay at **HKBU** as a **Senior Research Assistant**, working with [Prof. Jianliang Xu](https://www.comp.hkbu.edu.hk/~xujl).

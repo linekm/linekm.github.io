@@ -1,11 +1,11 @@
 cv:
   name: Xinyi Zhang
-  label: Postdoctoral Fellow
+  label: Senior Research Assistant
   email: csxyzhang@comp.hkbu.edu.hk
   phone: +852-56027517
   location: Hong Kong SAR
   image: ""
-  summary: Postdoctoral Fellow in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures for query processing and vector search.
+  summary: Senior Research Assistant in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures for query processing and vector search.
 
   social_networks:
     - network: GitHub
@@ -44,7 +44,7 @@ cv:
 
     Experience:
       - company: Hong Kong Baptist University
-        position: Postdoctoral Fellow
+        position: Senior Research Assistant
         location: Hong Kong SAR
         start_date: Aug 2026
         end_date: Present
@@ -72,14 +72,6 @@ cv:
           - Designed distribution-aware data structures to handle complex database workloads while ensuring robust performance.
           - Research published at top-tier database venues (SIGMOD, DAC).
 
-      - company: ByteDance
-        position: Research Intern
-        location: Beijing, China
-        start_date: Apr 2020
-        end_date: Oct 2020
-        highlights:
-          - Optimized inter-cluster communication for internal database clusters to enhance throughput and reduce latency.
-
       - company: Huazhong University of Science and Technology
         position: Undergraduate Researcher
         location: Wuhan, China
@@ -93,7 +85,6 @@ cv:
       - Oblivious query processing for data federation and outsourced cloud computing.
       - Scalable secure query processing for vector databases based on Trusted Execution Environments.
       - Robust updatable learned indexes under real-world workloads.
-      - Distributed vector database design.
 
     Research Projects:
       - name: "FedKNN: Secure Federated k-Nearest Neighbor Search"

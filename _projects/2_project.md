@@ -8,7 +8,7 @@ category: research
 ---
 
 **HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads**
-To appear at **ACM SIGMOD 2026** · Xinyi Zhang, Liang Liang, Anastasia Ailamaki, Jianliang Xu
+Published at **ACM SIGMOD 2026** · Xinyi Zhang, Liang Liang, Anastasia Ailamaki, Jianliang Xu
 
 ### Motivation
 
