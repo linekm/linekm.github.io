@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "ZHANG Xinyi",
-    "label": "Senior Research Assistant",
+    "label": "Post-doctoral Research Fellow",
     "image": "",
     "email": "csxyzhang@comp.hkbu.edu.hk",
     "phone": "+852-56027517",
     "url": "https://linekm.github.io",
-    "summary": "Senior Research Assistant in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures.",
+    "summary": "Post-doctoral Research Fellow in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures.",
     "location": {
       "address": "DLB 625G, 34 Renfrew Rd, HKBU",
       "postalCode": "",
@@ -19,7 +19,7 @@
   "work": [
     {
       "name": "Hong Kong Baptist University",
-      "position": "Senior Research Assistant",
+      "position": "Post-doctoral Research Fellow",
       "location": "Hong Kong SAR",
       "startDate": "2026-08-01",
       "endDate": "Present",
@@ -129,9 +129,16 @@
   "certificates": [],
   "publications": [
     {
+      "name": "ObliGraph: Graph Pattern Query Processing with Full and Differential Obliviousness",
+      "publisher": "Proceedings of the VLDB Endowment (PVLDB), vol. 20, no. 3, pp. 510–523",
+      "releaseDate": "2026-11-01",
+      "url": "",
+      "summary": "L. Xu, X. Zhang, and Q. Wang. Full Paper."
+    },
+    {
       "name": "Authenticated Approximate Nearest Neighbor Search in Outsourced Vector Databases",
-      "publisher": "Under SIGMOD Revision",
-      "releaseDate": "2026-07-01",
+      "publisher": "arXiv preprint arXiv:2611.16516",
+      "releaseDate": "2026-11-01",
       "url": "",
       "summary": "Y. Zhou†, X. Zhang†, C. Xu, and J. Xu. Full Paper. († These authors contributed equally.)"
     },
@@ -265,12 +272,12 @@
       "endDate": "Present"
     },
     {
-      "name": "Authenticated Approximate Nearest Neighbor Search (Under Revision, SIGMOD)",
-      "summary": "VIDA, a novel scheme for authenticated graph-based ANN search that leverages vector commitments and Inner Product Arguments to verify distance computations, drastically reducing the overall data transmission size. MeST, a proof aggregation mechanism, compresses the verification of multiple vectors into a single cryptographic proof. Up to 5.2× speedup in end-to-end latency and 99.3% reduction in data transfer time.",
+      "name": "Authenticated Approximate Nearest Neighbor Search (arXiv Preprint)",
+      "summary": "VIDA, a novel scheme for authenticated graph-based ANN search that replaces raw vector transmission with compact vector commitments and employs an aggregated Inner Product Argument to verify multiple distance computations. MeST, a topology-aware authenticated data structure, aligns authentication paths with graph traversal, and a quantization-aware strategy prunes exact distance verifications. Up to 6.6× speedup in end-to-end latency and up to 99.2% reduction in data transfer time.",
       "highlights": [
-        "Vector commitments + Inner Product Arguments",
-        "MeST proof aggregation",
-        "Up to 5.2× end-to-end speedup; 99.3% data-transfer reduction"
+        "Vector commitments + aggregated Inner Product Argument",
+        "MeST topology-aware authenticated data structure",
+        "Up to 6.6× end-to-end speedup; up to 99.2% data-transfer reduction"
       ],
       "startDate": "2024-06-01",
       "endDate": "Present"

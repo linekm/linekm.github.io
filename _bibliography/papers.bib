@@ -1,6 +1,35 @@
 ---
 ---
 
+@article{VLDB27:obligraph,
+  abbr         = {VLDB'27},
+  bibtex_show  = {true},
+  title        = {ObliGraph: Graph Pattern Query Processing with Full and Differential Obliviousness},
+  author       = {Xu, Lyu and Zhang, Xinyi and Wang, Qichen},
+  journal      = {Proceedings of the VLDB Endowment (PVLDB)},
+  volume       = {20},
+  number       = {3},
+  pages        = {510--523},
+  year         = {2026},
+  doi          = {10.14778/3860016.3860020},
+  arxiv        = {2611.25405},
+  pdf          = {https://arxiv.org/pdf/2611.25405},
+  abstract     = {Graph pattern query is a fundamental primitive in graph databases for retrieving data graphs that match a query graph under various structural constraints. As graph data is increasingly outsourced to third-party cloud servers for scalable query processing, however, both the query graph and the data graphs may leak sensitive structural information through server-side access patterns. In this paper, we study privacy-preserving graph pattern query processing in the outsourced setting, aiming to protect the structures of both the query and data graphs from access-pattern leakage. To this end, we propose ObliGraph, the first oblivious graph search framework that supports multiple classes of graph pattern queries under two privacy modes: FOS achieves full obliviousness by uniformly evaluating candidate mappings, making the server-side access pattern independent of the structures of the query and data graphs; DOS further improves query efficiency through pruning while retaining a provable privacy guarantee of differential obliviousness. This design enables a smooth trade-off between stronger privacy and higher efficiency within a single framework. Experiments on real and synthetic datasets demonstrate that ObliGraph efficiently supports a range of graph pattern queries, achieving substantial improvements while preserving strong privacy guarantees.}
+}
+
+@article{arXiv26:vida,
+  abbr         = {arXiv},
+  bibtex_show  = {true},
+  title        = {Authenticated Approximate Nearest Neighbor Search in Outsourced Vector Databases},
+  author       = {Zhou†, Yuanhang and Zhang†, Xinyi and Xu, Cheng and Xu, Jianliang},
+  journal      = {arXiv preprint arXiv:2611.16516},
+  year         = {2026},
+  arxiv        = {2611.16516},
+  pdf          = {https://arxiv.org/pdf/2611.16516},
+  annotation   = {† These authors contributed equally.},
+  abstract     = {Approximate Nearest Neighbor (ANN) search has become a fundamental query primitive in modern vector databases for managing large-scale embedding data. To support growing vector collections, organizations increasingly outsource database management and query processing to third-party clouds. However, untrusted service providers may return suboptimal or fabricated results, posing a serious threat to ANN search integrity. Existing authenticated ANN approaches face substantial scalability challenges. They typically require transmitting high-dimensional vectors for distance verification and rely on topology-agnostic authentication structures, resulting in excessive communication and verification overhead. In this paper, we propose VIDA, a novel and efficient scheme for authenticated graph-based ANN search. VIDA replaces raw vector transmission with compact vector commitments and employs an aggregated Inner Product Argument to efficiently verify multiple distance computations. Furthermore, we introduce MeST, a topology-aware authenticated data structure that aligns authentication paths with graph traversal, significantly reducing structural proof overhead. Additionally, we design a quantization-aware authentication strategy that exploits distance bounds for pruning, reducing the number of exact distances requiring cryptographic authentication. Extensive experiments demonstrate that the proposed schemes substantially improve the efficiency of authenticated ANN search, achieving up to a 6.6x speedup in end-to-end latency and reducing data transfer time by up to 99.2\% compared with state-of-the-art methods.}
+}
+
 @article{SIGMOD26:hire,
   abbr         = {SIGMOD'26},
   bibtex_show  = {true},

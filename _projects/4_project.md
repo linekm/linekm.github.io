@@ -1,13 +1,13 @@
 ---
 layout: page
 title: VIDA — Authenticated ANN Search
-description: Verifiable graph-based ANN search via vector commitments and inner-product arguments (Under Revision, SIGMOD)
+description: Verifiable graph-based ANN search via vector commitments and inner-product arguments (arXiv preprint)
 img:
 importance: 4
 category: research
 ---
 
-**Authenticated Approximate Nearest Neighbor Search (VIDA)** — *Under Revision (SIGMOD)*
+**Authenticated Approximate Nearest Neighbor Search (VIDA)** — [_arXiv preprint_](https://arxiv.org/abs/2611.16516)
 
 ### Problem
 
@@ -17,10 +17,11 @@ In outsourced vector search settings, clients need **cryptographic guarantees** 
 
 VIDA is a novel scheme for authenticated graph-based ANN search:
 
-- Uses **vector commitments** and **Inner Product Arguments (IPA)** to verify distance computations, drastically reducing verification data size.
-- Introduces **MeST**, a proof aggregation mechanism that compresses verification of multiple vectors into a single cryptographic proof.
+- Replaces raw vector transmission with compact **vector commitments** and an aggregated **Inner Product Argument (IPA)** to verify multiple distance computations efficiently.
+- Introduces **MeST**, a topology-aware authenticated data structure that aligns authentication paths with graph traversal, reducing structural proof overhead.
+- Uses a **quantization-aware authentication** strategy that exploits distance bounds for pruning, reducing the number of exact distances requiring cryptographic authentication.
 
 ### Results
 
-- Up to **5.2× speedup** in end-to-end verification latency.
-- **99.3%** reduction in data transfer time during verification.
+- Up to **6.6× speedup** in end-to-end latency.
+- Up to **99.2%** reduction in data transfer time.

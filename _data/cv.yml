@@ -1,11 +1,11 @@
 cv:
   name: Xinyi Zhang
-  label: Senior Research Assistant
+  label: Post-doctoral Research Fellow
   email: csxyzhang@comp.hkbu.edu.hk
   phone: +852-56027517
   location: Hong Kong SAR
   image: ""
-  summary: Senior Research Assistant in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures for query processing and vector search.
+  summary: Post-doctoral Research Fellow in the Department of Computer Science at Hong Kong Baptist University, with experience in designing and implementing high-performance, secure database systems and distribution-aware data structures for query processing and vector search.
 
   social_networks:
     - network: GitHub
@@ -44,7 +44,7 @@ cv:
 
     Experience:
       - company: Hong Kong Baptist University
-        position: Senior Research Assistant
+        position: Post-doctoral Research Fellow
         location: Hong Kong SAR
         start_date: Aug 2026
         end_date: Present
@@ -101,10 +101,10 @@ cv:
           - Proposed a secure ANN index structure within trusted execution environments, mitigating side-channel attacks by enforcing oblivious memory access patterns on proximity graph indexes.
           - Achieved plaintext-level throughput with provable privacy guarantees via a distribution-aware oblivious access algorithm, significantly outperforming SOTA solutions.
       - name: Authenticated Approximate Nearest Neighbor Search
-        venue: Under Revision (SIGMOD)
+        venue: arXiv Preprint
         highlights:
-          - Designed VIDA, a scheme for authenticated graph-based ANN search that leverages vector commitments and Inner Product Arguments to verify distance computations, drastically reducing data transmission size.
-          - Introduced MeST, a proof aggregation mechanism that compresses the verification of multiple vectors into a single cryptographic proof; achieved up to 5.2× end-to-end speedup and 99.3% reduction in data transfer time.
+          - Designed VIDA, a scheme for authenticated graph-based ANN search that replaces raw vector transmission with compact vector commitments and verifies multiple distance computations with an aggregated Inner Product Argument.
+          - Introduced MeST, a topology-aware authenticated data structure that aligns authentication paths with graph traversal, plus a quantization-aware authentication strategy; achieved up to 6.6× end-to-end speedup and up to 99.2% reduction in data transfer time.
 
     Honors and Awards:
       - year: 2024, 2026
