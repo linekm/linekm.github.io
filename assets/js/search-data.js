@@ -49,6 +49,12 @@ ninja.data = [{
           section: "News",},{id: "news-successfully-defended-my-phd-thesis-i-will-stay-at-hkbu-as-a-senior-research-assistant-working-with-prof-jianliang-xu",
           title: 'Successfully defended my PhD thesis! 🎓 I will stay at HKBU as a...',
           description: "",
+          section: "News",},{id: "news-officially-awarded-my-phd-by-hkbu-and-now-a-post-doctoral-research-fellow-in-the-department-of-computer-science-at-hkbu-working-with-prof-jianliang-xu",
+          title: 'Officially awarded my PhD by HKBU, and now a Post-doctoral Research Fellow in...',
+          description: "",
+          section: "News",},{id: "news-our-paper-obligraph-graph-pattern-query-processing-with-full-and-differential-obliviousness-has-been-accepted-to-vldb-2027",
+          title: 'Our paper ObliGraph: Graph Pattern Query Processing with Full and Differential Obliviousness has...',
+          description: "",
           section: "News",},{id: "projects-fedknn",
           title: 'FedKNN',
           description: "Secure Federated k-Nearest Neighbor Search (SIGMOD &#39;24)",
@@ -66,7 +72,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-vida-authenticated-ann-search",
           title: 'VIDA — Authenticated ANN Search',
-          description: "Verifiable graph-based ANN search via vector commitments and inner-product arguments (Under Revision, SIGMOD)",
+          description: "Verifiable graph-based ANN search via vector commitments and inner-product arguments (arXiv preprint)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "teachings-data-science-fundamentals",
