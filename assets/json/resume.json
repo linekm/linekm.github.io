@@ -140,7 +140,7 @@
       "publisher": "arXiv preprint arXiv:2611.16516",
       "releaseDate": "2026-11-01",
       "url": "",
-      "summary": "Y. Zhou†, X. Zhang†, C. Xu, and J. Xu. Full Paper. († These authors contributed equally.)"
+      "summary": "Y. Zhou, X. Zhang\\*, C. Xu, and J. Xu. Full Paper. (\\* Corresponding author.)"
     },
     {
       "name": "Privacy-Preserving Approximate Nearest Neighbor Search in Trusted Execution Environments",
